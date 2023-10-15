@@ -1,0 +1,116 @@
+.footer {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left {
+  width: 30%;
+}
+.footer-middle {
+  width: 30%;
+}
+.footer-right {
+  width: 30%;
+}
+.footer-bottom {
+  padding: 20px 0 40px 0;
+  border-top: 1px solid #858584;
+}
+.footer-bottom p {
+  color: #ccc;
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 13.2px */
+}
+.footer-small-text {
+  color: #ccc;
+
+  /* Base(Body) - Work Sans */
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  margin-bottom: 20px;
+}
+.footer-big-text {
+  color: #fff;
+  margin-bottom: 30px;
+  /* H5 - Space Mono */
+  font-family: Space Mono;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+}
+
+.footer-right label {
+  /* width: 100%; */
+  margin-top: 30px;
+  border-radius: 20px;
+  background: var(--Text, #fff);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 16px 0px 16px 20px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+.footer-right label input {
+  color: var(--Background, #2b2b2b);
+
+  /* Base(Body) - Work Sans */
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  border: none;
+  outline: none;
+}
+.footer-right label button {
+  display: flex;
+  height: 60px;
+  padding: 0px 30px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  background: var(--Call-to-Action, #a259ff);
+  border: none;
+}
+@media screen and (max-width: 1100px) {
+  .footer-right label {
+    display: block;
+  }
+  .footer-right label button {
+    margin-top: 24px;
+    padding: 0px 60px;
+  }
+  .footer {
+    padding: 60px 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 60px 0;
+    display: block;
+  }
+  .footer-left {
+    width: 80%;
+  }
+  .footer-middle {
+    width: 80%;
+  }
+  .footer-right {
+    width: 80%;
+  }
+  .footer-right label input {
+    background-color: transparent;
+  }
+}

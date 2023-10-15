@@ -1,0 +1,207 @@
+.topCreators {
+  padding: 80px 0;
+}
+.topCreators-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brow-categories {
+  color: var(--White, #fff);
+
+  /* H3 - Work Sans */
+  font-family: Work Sans;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 45.6px */
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+.topCreators-top-left h1 {
+  color: var(--White, #fff);
+
+  /* H3 - Work Sans */
+  font-family: Work Sans;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 45.6px */
+  text-transform: capitalize;
+}
+.topCreators-top-left p {
+  color: var(--White, #fff);
+
+  /* Body Text- Work Sans */
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.topCreators-top-right button {
+  border-radius: 20px;
+  border: 2px solid var(--Call-to-Action, #a259ff);
+  display: flex;
+  height: 60px;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  background-color: transparent;
+  cursor: pointer;
+}
+.topCreators-box {
+  display: flex;
+  justify-content: center;
+}
+.topCreators-box-img {
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  gap: 30px;
+}
+.topCreators-box-img-child {
+  display: block;
+  padding: 20px;
+  border-radius: 20px;
+  background: #3b3b3b;
+  position: relative;
+}
+.topCreators-box-img-child h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+  margin-top: 20px;
+  text-align: center;
+}
+.topCreators-box-img-child p span {
+  color: var(--caption-label-text, #858584);
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  margin-right: 5px;
+}
+.topCreators-box-img-child p {
+  text-align: center;
+  color: var(--Text, #fff);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  /* display: flex;
+  gap: 10px; */
+}
+.img-top-box {
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  color: var(--caption-label-text, #858584);
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  background: var(--Background, #2b2b2b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+}
+@media screen and (max-width: 1100px) {
+  .topCreators-box-img {
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .topCreators-box-img {
+    display: grid;
+    grid-template-columns: repeat(3, 240px);
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .topCreators-box-img {
+    display: grid;
+    grid-template-columns: repeat(2, 330px);
+    gap: 30px;
+  }
+  .topCreators-box-img-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .topCreators-top {
+    display: block;
+  }
+  .brow-categories {
+    font-size: 20px;
+  }
+  .topCreators-top-right {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .topCreators-box-img {
+    display: grid;
+    grid-template-columns: repeat(1, 330px);
+    gap: 30px;
+  }
+  .topCreators-top-left h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .topCreators-top-left p {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 330px) {
+  .topCreators-box-img {
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    gap: 30px;
+  }
+  .topCreators-top-left h1 {
+    font-size: 26px;
+  }
+  .topCreators-top-left p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .topCreators-box-img {
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    gap: 30px;
+  }
+}

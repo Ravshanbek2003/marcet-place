@@ -1,0 +1,119 @@
+.works {
+  padding: 80px 0;
+}
+.works h1 {
+  color: var(--White, #fff);
+
+  /* H3 - Work Sans */
+  font-family: Work Sans;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 45.6px */
+  text-transform: capitalize;
+}
+.works h4 {
+  color: var(--White, #fff);
+  margin: 10px 0 50px 0;
+  /* Body Text- Work Sans */
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+}
+.works-main {
+  display: flex;
+  justify-content: center;
+}
+.works-box {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  gap: 30px;
+}
+.works-box-children {
+  padding: 30px;
+  border-radius: 20px;
+  background: var(--Background---Secondary, #3b3b3b);
+}
+.xaxa h3 {
+  color: #fff;
+  text-align: center;
+
+  /* H5 - Work Sans */
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+  margin: 10px 0 20px 0;
+}
+
+.xaxa p {
+  color: var(--White, #fff);
+  text-align: center;
+
+  /* Base(Body) - Work Sans */
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+@media screen and (max-width: 1100px) {
+  .works-box {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .works-box {
+    display: grid;
+    grid-template-columns: repeat(1, 600px);
+    gap: 30px;
+    .works-box-children {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .works-box {
+    display: grid;
+    grid-template-columns: repeat(1, 400px);
+    gap: 30px;
+    .works-box-children {
+      display: block;
+      align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .works-box {
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    gap: 30px;
+    .works-box-children {
+      display: block;
+      align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 300px) {
+  .works-box {
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    gap: 30px;
+    .works-box-children {
+      display: block;
+      align-items: center;
+    }
+    .works-box-children img {
+      width: 150px;
+    }
+  }
+}

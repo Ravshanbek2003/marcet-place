@@ -1,0 +1,140 @@
+.discoverDigital {
+  margin-top: 100px;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.discoverDigital-left h1 {
+  color: var(--White, #fff);
+
+  /* H1 - Work Sans */
+  font-family: Work Sans;
+  font-size: 67px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 73.7px */
+  text-transform: capitalize;
+}
+.discoverDigital-left p {
+  margin-top: 20px;
+  color: var(--White, #fff);
+
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.discoverDigital-left button {
+  display: flex;
+  height: 60px;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  background: var(--Call-to-Action, #a259ff);
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+}
+.discoverDigital-left {
+  width: 48%;
+}
+.discoverDigital-right {
+  width: 48%;
+}
+.patpischit {
+  margin-top: 30px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.patpischit .pat-box h4 {
+  color: var(--White, #fff);
+
+  /* H4 - Space Mono */
+  font-family: Space Mono;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 39.2px */
+  text-transform: capitalize;
+}
+.patpischit .pat-box p {
+  color: var(--White, #fff);
+  font-family: Work Sans;
+  font-size: 23.99px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 38.384px */
+  text-transform: capitalize;
+}
+.discoverDigital-right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 950px) {
+  .discoverDigital-left h1 {
+    font-size: 50px;
+  }
+  .discoverDigital-left p {
+    font-size: 16px;
+  }
+  .discoverDigital-left button {
+    height: 50px;
+    padding: 0px 70px;
+  }
+  .patpischit .pat-box h4 {
+    font-size: 20px;
+  }
+  .patpischit .pat-box p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .discoverDigital-left h1 {
+    font-size: 38px;
+  }
+  .discoverDigital-left p {
+    font-size: 14px;
+  }
+  .discoverDigital-left button {
+    height: 50px;
+    padding: 0px 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .discoverDigital-left h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  .discoverDigital-left p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .discoverDigital-left button {
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .discoverDigital {
+    display: block;
+  }
+  .discoverDigital-left {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .discoverDigital-right {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

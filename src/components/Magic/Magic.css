@@ -1,0 +1,70 @@
+.magic {
+  height: 650px;
+
+  padding: 360px 0 100px 0;
+  background-image: url(../../../public/images/megic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.magic-left button {
+  border-radius: 20px;
+  background: var(--Text, #fff);
+  display: flex;
+  height: 60px;
+  padding: 22px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+  color: var(--Background, #2b2b2b);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  border: none;
+}
+.magic .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.magic-left h1 {
+  color: #fff;
+
+  /* H2 - Work Sans */
+  font-family: Work Sans;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 56.1px */
+  text-transform: capitalize;
+}
+@media screen and (max-width: 660px) {
+  .magic .container {
+    display: block;
+  }
+  .magic {
+    padding: 300px 0 100px 0;
+  }
+  .magic-left {
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .magic .container {
+    display: block;
+  }
+  .magic {
+    padding: 250px 0 200px 0;
+  }
+  .magic-left {
+    margin: 30px auto;
+  }
+  .magic-right {
+    width: 90%;
+  }
+}

@@ -1,0 +1,155 @@
+.join {
+  border-radius: 20px;
+  background: #3b3b3b;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.join-left {
+  width: 45%;
+}
+.join-right {
+  width: 45%;
+}
+.join-right h1 {
+  color: var(--White, #fff);
+
+  /* H3 - Work Sans */
+  font-family: Work Sans;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 45.6px */
+  text-transform: capitalize;
+}
+.join-right p {
+  color: var(--White, #fff);
+
+  /* Body Text- Work Sans */
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+}
+.join-right label {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 20px;
+  background: var(--Text, #fff);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 16px 0px 16px 20px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+.join-right label input {
+  color: var(--Background, #2b2b2b);
+
+  /* Base(Body) - Work Sans */
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  border: none;
+  outline: none;
+}
+.join-right label button {
+  display: flex;
+  height: 60px;
+  padding: 0px 50px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  background: var(--Call-to-Action, #a259ff);
+  border: none;
+}
+@media screen and (max-width: 1000px) {
+  .join {
+    border-radius: 20px;
+    background: #3b3b3b;
+    padding: 60px;
+    display: block;
+  }
+  .join-left {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .join-right {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .join {
+    border-radius: 20px;
+    background: #3b3b3b;
+    padding: 20px 20px 80px 20px;
+    display: block;
+  }
+  .join-left {
+    margin: 20px auto;
+    width: 80%;
+  }
+  .join-left img {
+    width: 95%;
+  }
+  .join-right {
+    width: 95%;
+  }
+  .join-right h1 {
+    font-size: 28px;
+  }
+  .join-right p {
+    font-size: 16px;
+  }
+  .join-right label {
+    display: block;
+  }
+  .join-right label button {
+    display: block;
+    margin-top: 30px;
+  }
+  .join-right label input {
+    background-color: transparent;
+  }
+}
+@media screen and (max-width: 400px) {
+  .join {
+    border-radius: 20px;
+    background: #3b3b3b;
+    padding: 10px 10px 80px 10px;
+    display: block;
+  }
+  .join-left {
+    margin: 20px auto;
+    width: 80%;
+  }
+  .join-left img {
+    width: 95%;
+  }
+  .join-right {
+    width: 95%;
+  }
+  .join-right h1 {
+    font-size: 20px;
+  }
+  .join-right p {
+    font-size: 12px;
+  }
+  .join-right label {
+    display: block;
+  }
+  .join-right label button {
+    display: block;
+    margin-top: 30px;
+  }
+  .join-right label input {
+    background-color: transparent;
+  }
+}
