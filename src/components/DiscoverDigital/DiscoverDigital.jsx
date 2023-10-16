@@ -28,7 +28,7 @@ const DiscoverDigital = () => {
         </div>
       </div>
       <div className="discoverDigital-right">
-        <img src="./public/images/NFT.svg" alt="" />
+        <img src="./public/assets/images/NFT.svg" alt="" />
       </div>
     </div>
   );

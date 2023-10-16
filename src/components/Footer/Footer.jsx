@@ -5,13 +5,13 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-left">
           <div style={{ marginBottom: "30px" }}>
-            <img src="./public/images/footer-logo.png" alt="" />
+            <img src="./public/assets/images/footer-logo.png" alt="" />
           </div>
           <p className="footer-small-text">
             NFT marketplace UI created with Anima for Figma.
           </p>
           <div>
-            <img src="./public/images/footer.png" alt="" />
+            <img src="./public/assets/images/footer.png" alt="" />
           </div>
         </div>
         <div className="footer-middle">

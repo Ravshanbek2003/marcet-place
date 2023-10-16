@@ -19,12 +19,12 @@ const Discover = () => {
       <div className="discover-box">
         <div className="discover-in">
           <div className="discover-child">
-            <img src="./public/images/discover-1.png" alt="" />
+            <img src="./public/assets/images/discover-1.png" alt="" />
             <div className="discover-child-bottom-2">
               <h4>Distant Galaxy</h4>
               <div className="discover-logo">
                 <span>
-                  <img src="./public/images/discover-small-1.png" alt="" />
+                  <img src="./public/assets/images/discover-small-1.png" alt="" />
                 </span>
                 MoonDancer
               </div>
@@ -42,12 +42,12 @@ const Discover = () => {
           </div>
 
           <div className="discover-child">
-            <img src="./public/images/discover-2.png" alt="" />
+            <img src="./public/assets/images/discover-2.png" alt="" />
             <div className="discover-child-bottom-2">
               <h4>Life On Edena</h4>
               <div className="discover-logo">
                 <span>
-                  <img src="./public/images/discover-small-2.png" alt="" />
+                  <img src="./public/assets/images/discover-small-2.png" alt="" />
                 </span>
                 NebulaKid
               </div>
@@ -65,12 +65,12 @@ const Discover = () => {
           </div>
 
           <div className="discover-child">
-            <img src="./public/images/discover-3.png" alt="" />
+            <img src="./public/assets/images/discover-3.png" alt="" />
             <div className="discover-child-bottom-2">
               <h4>AstroFiction</h4>
               <div className="discover-logo">
                 <span>
-                  <img src="./public/images/discover-small-3.png" alt="" />
+                  <img src="./public/assets/images/discover-small-3.png" alt="" />
                 </span>
                 Spaceone
               </div>

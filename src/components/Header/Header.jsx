@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <img src="./public/images/logo.png" alt="" />
+        <img src="./public/assets/images/logo.png" alt="" />
       </div>
       <div className="nav" style={{ top: show ? "100px" : "-500px" }}>
         <ul>

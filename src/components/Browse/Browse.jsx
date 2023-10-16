@@ -10,8 +10,8 @@ const Browse = () => {
           return (
             <div key={idx} className="browse-child">
               <div className="browse-child-top">
-                <img className="brow-bg"  src={`./public/images/brow-${el.id}.png`} alt="" />
-                <img className="brow-bg-pos" src={`./public/images/pos-${el.id}.png`} alt="" />
+                <img className="brow-bg"  src={`./public/assets/images/brow-${el.id}.png`} alt="" />
+                <img className="brow-bg-pos" src={`./public/assets/images/pos-${el.id}.png`} alt="" />
               </div>
 
               <div className="browse-child-bottom">

@@ -8,7 +8,7 @@ const Works = () => {
       <div className="works-main">
         <div className="works-box">
           <div className="works-box-children">
-            <img src="./public/images/works.png" alt="" />
+            <img src="./public/assets/images/works.png" alt="" />
             <div className="xaxa">
               <h3>Setup Your wallet</h3>
               <p>
@@ -18,7 +18,7 @@ const Works = () => {
             </div>
           </div>
           <div className="works-box-children">
-            <img src="./public/images/works-2.png" alt="" />
+            <img src="./public/assets/images/works-2.png" alt="" />
             <div className="xaxa">
               <h3>Setup Your wallet</h3>
               <p>
@@ -28,7 +28,7 @@ const Works = () => {
             </div>
           </div>
           <div className="works-box-children">
-            <img src="./public/images/works-3.png" alt="" />
+            <img src="./public/assets/images/works-3.png" alt="" />
             <div className="xaxa">
               <h3>Setup Your wallet</h3>
               <p>

@@ -5,7 +5,7 @@ const Join = () => {
   return (
     <div className="join">
       <div className="join-left">
-        <img src="./public/images/join.png" alt="" />
+        <img src="./public/assets/images/join.png" alt="" />
       </div>
       <div className="join-right">
         <h1>

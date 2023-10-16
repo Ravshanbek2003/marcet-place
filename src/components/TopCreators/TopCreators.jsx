@@ -25,7 +25,7 @@ const TopCreators = () => {
               <div key={idx} className="topCreators-box-img-child">
                 <div className="circle">{user.id}</div>
                 <div className="img-top-box">
-                  <img src={`./public/images/top-${user.id}.png`} alt="img" />
+                  <img src={`./public/assets/images/top-${user.id}.png`} alt="img" />
                 </div>
                 <div>
                   <h2>{user.name}</h2>
